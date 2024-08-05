@@ -24,10 +24,10 @@ def generateID():
         messagebox.showerror("ERROR", "Number range is null!")
 
 
-# def copyID():
-# app.clipboard_clear()
-# selected = answer.get()
-# app.clipboard_append(selected)
+#def copyID():
+    #selected_content = answer.get(answer.curselection())
+    #root.clipboard_clear()
+    #root.clipboard_append(selected_content)
 
 Label(text="ID maker", font=("Verdana", 30)).pack(pady=50)
 Label(text="Number range:").pack(pady=10)
@@ -39,8 +39,8 @@ Label(text="Result:").pack(pady=10)
 answer = Listbox(width=50, height=1)
 answer.pack()
 Button(text="Generate ID", bg="yellow", command=generateID).pack(pady=20)
-# Label(text="Copy ID:").pack(pady=20)
-# Button(text="Copy ID", bg="orange", command=copyID).pack()
+#Label(text="Copy ID:").pack(pady=20)
+#Button(text="Copy ID", bg="orange", width=20, command=copyID).pack()
 Button(text="exit", bg="red", width=3, command=exitRoot).place(x=0, y=0)
 
 root.mainloop()
