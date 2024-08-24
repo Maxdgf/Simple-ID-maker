@@ -3,6 +3,6 @@ Very simple id maker app. App using tkinter and python random, randint module.
 
 App creating id type: ID92829
 
-<h1>Requirements:</h1>
+<p style="italic>Requirements:</p>
 ##
     pip install tkinter
